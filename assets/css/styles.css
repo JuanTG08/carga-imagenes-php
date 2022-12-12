@@ -1,0 +1,127 @@
+
+
+body{
+    background-color: rgb(7, 4, 37);
+    
+}
+
+h1, h3{
+    color: white;
+}
+
+.ganarImg{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ganarImgCont{
+    width: 30%;
+}
+
+.ganarImgCont h2{
+    font-size: 30px;
+    letter-spacing: normal;
+}
+
+.ffff{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2{
+    margin-top: 70px;
+    margin-bottom: 70px;
+      position:relative;
+      font-size: 3rem;
+      letter-spacing: 5px;
+      color: #0e3742;
+    
+      width: 100%;
+      text-align: center;
+    
+      line-height: 0.70em;
+      outline: none;
+      animation: animate 5s linear infinite;
+  }
+  @keyframes animate
+  {
+      0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+      {
+          color: #0e3742;
+          text-shadow:none;
+      }
+      18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+      {
+          color: #fff;
+          text-shadow: 0 0 10px #03bcf4,
+          0 0 20px #03bcf4,
+          0 0 40px #03bcf4,
+          0 0 80px #03bcf4,
+          0 0 160px #03bcf4;
+      }
+  }
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    border-color: chartreuse;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 43, 226);
+    font-size: 25px;
+    transition: transform .2s;
+}  
+
+  
+a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border-color: rgb(36, 230, 197);
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+}
+
+.input1{
+    text-align: center;
+    margin-left: 28rem;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    background-color: transparent;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.input1:hover{
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.input2{
+    text-align: center;
+    margin-left: 27rem;
+    background-color: transparent;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.input2:hover{
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+
+.formulario{
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+}
+
+.inputext{
+    border-radius: 20px;
+}
+
